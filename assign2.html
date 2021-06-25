@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<body>
+	<h1>Registration Form</h1>
+	<hr>
+	<br>
+
+
+	
+ <form action="/action_page.php"   method="POST">
+
+ <fieldset>
+  <legend>Basic Information:</legend>
+		
+		<label for="FirstName">First Name:</label>
+		<input type="text" name="fname" id="FirstName" required>
+		<br>
+
+	    <label for="LastName">Last Name:</label>
+		<input type="text" name="lname" id="LastName" required>
+		<br>
+
+		<label for="Gender">Gender:</label>
+		<input type="radio" name="gender" id="Male" value="Male" required>
+
+		<label for="Male">Male</label>
+
+		<input type="radio" name="gender" id="Female" value="Female" required>
+
+		<label for="Female">Female</label>
+
+		<br>
+
+		<label for="doB">DoB:</label>
+        <input type="date" id="doB" name="doB" required>
+
+        <br>
+
+	    <label for="religion">Religion:</label>
+        <input type="dropdown" id="religion" name="religion" required>
+
+         <br>
+		
+		</fieldset>
+
+
+        <fieldset>
+		<legend> Contact Information </legend>
+		 
+        <label for="present adress">Present Adress:</label>
+		<input type="textarea" id="present adress" name="present adress" ><br><br>
+
+		<label for="permanent adress">Permanent Adress:</label>
+		<input type="textarea" id="permanent adress" name="permanent adress"><br><br>
+		
+
+		<label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone"><br><br>
+  
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"required>
+          <br>
+          <label for="personal website link">Website Link:</label>
+          <input type="url" id="personal website link" name="personal website link"><br><br>
+        
+
+        </fieldset>
+
+       
+        <fieldset>
+		<legend> Account Information </legend>
+		
+		<label for="uname">User Name:</label>
+		<input type="text" name="uname" id="uname" required>
+		<br>
+
+		<label for="Password">Password:</label>
+		<input type="password" id="Password" name="password" required>
+		<br>
+        </fieldset>
+		
+		<input type="submit" value="Submit">
+
+	</form>
+
+</body>
+</html>
